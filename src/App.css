@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+.logo {max-width: 80px;
+  
+}
+.logo-home {
+  max-height: 400px;
+  display: block;
+}
+.Home {
+  background-color: rgba(4,99,128,255);
+}
+.container {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.project {
+  display: flex;
+  border: solid 2px black;
+  width: 300px;
+  height: 300px;
+  margin: 30px;
+  align-items: center;
+}
+
+img {
+  max-width: 280px;
+}
