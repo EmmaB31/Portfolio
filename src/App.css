@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif
 }
 
 .App-logo {
@@ -64,3 +65,35 @@
 img {
   max-width: 280px;
 }
+
+.About {
+  background-color: rgba(4,99,128,255);
+  color: rgb(243, 238, 238);
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.about-text {
+  display: block;
+  width: 40%;
+  margin-left: 40%;
+  text-align: left;
+
+}
+.Contact {
+  background-color: #1e1f20;
+  color: white;
+}
+.react-icons{
+  color: white;
+margin: 0.5em;
+}
+.container-components {
+  display: flex;
+}
+.skills-component {
+  width: 20%;
+  border-right: rgba(4,99,128,255) solid 2px;
+  font-weight: 100;
+}
+/* .projects-component {
+} */
