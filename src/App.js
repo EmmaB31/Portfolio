@@ -10,7 +10,7 @@ import Skills from './components/Skills';
 function App() {
   return (
     <div className="App">
-       <Navbar />
+       {/* <Navbar /> */}
        {/* <Home /> */}
        <About />
        <div className='container-components'>

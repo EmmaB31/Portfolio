@@ -9,15 +9,16 @@ import Logo from "../logo/logo-no-background.png"
 const Navigationbar = () => {
   return (
     <Navbar bg="dark" variant="dark">
+    <img className="logo" src={Logo} />
     <Container>
-      <img className="logo" src={Logo} />
+      
       {/* <Navbar.Brand href="#home">Emma Bosworth</Navbar.Brand> */}
-      <Nav className="me-left">
+      {/* <Nav className="me-left">
         <Nav.Link href="#home">Home</Nav.Link>
         <Nav.Link href="#about">About</Nav.Link>
         <Nav.Link href="#skills">Skills</Nav.Link>
         <Nav.Link href="#projects">Projects</Nav.Link>
-      </Nav>
+      </Nav> */}
     </Container>
   </Navbar>
   )

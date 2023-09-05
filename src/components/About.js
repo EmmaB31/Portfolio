@@ -1,8 +1,12 @@
 import React from 'react'
+import Logo from "../logo/logo-no-background.png"
 
 const About = () => {
   return (
     <div className="About">
+      <div className='image-logo'>
+      <img className="logo" src={Logo} />
+      </div>
       <div className='about-text'>
       
       <h1>Hi, I'm Emma</h1>
