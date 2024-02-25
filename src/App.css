@@ -47,6 +47,7 @@
 }
 .Home {
   background-color: rgba(4,99,128,255);
+  width: 100%;
 }
 .container {
   display:flex;
@@ -59,13 +60,15 @@
   display: flex;
   /* border: solid 2px black; */
   width: 300px;
-  height: 300px;
+  min-height: 300px;
   margin: 30px;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   border-radius: 10px;
   box-shadow: 2px 2px 2px rgba(24, 59, 126, 0.358);
   background-color: white;
+  padding-top: 10px;
 }
 
 img {
@@ -138,10 +141,16 @@ align-items: start;
   width: 350px;
   margin: 10px;
   align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 
 }
 
 .titles {
   font-weight: bold;
  
+}
+a {
+  color:black !important;
+  text-decoration: none !important;
 }
